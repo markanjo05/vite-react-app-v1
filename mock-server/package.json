@@ -1,0 +1,23 @@
+{
+	"name": "@elemnta/mock-server",
+	"private": true,
+	"scripts": {
+		"serve": "nodemon ./fake-server.mjs"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"cors": "^2.8.5",
+		"express-session": "^1.18.1",
+		"module-alias": "^2.2.3",
+		"ws": "^8.17.1"
+	},
+	"devDependencies": {
+		"json-server": "^0.17.3",
+		"nodemon": "^3.1.9"
+	},
+	"type": "module",
+	"imports": {
+		"#data": "./data.mjs"
+	}
+}
