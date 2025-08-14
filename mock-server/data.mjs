@@ -51,6 +51,4 @@ export default {
 			mobileNo: "555-987-1234",
 		},
 	],
-	loggedUser: {},
-	webSocket: {},
 };

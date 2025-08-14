@@ -9,11 +9,6 @@ export type User = {
 	mobileNo: string;
 };
 
-// export type GetUsersRequestData = {
-// 	pageSize
-
-// };
-
 export type GetUsersResponseData = {
 	items: User[];
 };
